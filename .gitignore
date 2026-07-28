@@ -1,0 +1,29 @@
+#Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment secrets
+.env
+.env.*
+secrets.json
+credentials.json
+config.local.py
+*.secret
+*.key
+*.pem
+
+# Python
+__pycache__/
+dist/
+build/
+
+#IDEs
+.vscode/settings.json
+.idea/
+
+#Logs / cache
+*.log 
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
